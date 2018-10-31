@@ -1,0 +1,82 @@
+.meshedi{
+    height: 300px;
+    background: gray;
+}
+.outer{
+    background-color: pink;
+    display: flex ;
+    justify-content: space-around;
+}
+.inner{
+    height: 200px;
+    background-color: aqua;
+    width: 19%;
+    margin: -20px 0px 50px;
+    border:1px solid black;
+}
+/* .inner:hover ~ .inner2{ 
+    margin-top: -50px;
+    height: 230px;
+
+} */
+
+.inner:hover { 
+    margin-top: -50px;
+    height: 230px;
+    transition: all linear 0.3s;
+
+}
+.outeriki{
+    margin-top: 31px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.innerIki{
+    width: 32%;
+    background-color: whitesmoke;
+}
+.innerIki .red{
+    background-color: red;
+    height: 150px;
+    margin: 15px;
+
+}
+.samir{
+    text-align: center;
+}
+.innerIki p{
+    margin: 15px;
+    text-align: center;
+}
+.innerIki .green{
+    background-color: green;
+    height: 150px;
+    margin: 15px;
+}
+.bi{
+    background-image: url(samir.jpg)
+}
+.bi:hover{
+    background-image: url(samir2.jpg)
+}
+.hoverable:hover {
+color: red;
+background-color: pink; 
+
+}
+.insta{
+    display: flex;
+    justify-content: space-around; 
+}
+.innerinsta{
+    width: 30%;
+    
+}
+.innerinsta img{
+    width: 100%;
+    transition: all linear 1s;
+}
+.innerinsta img:hover{
+    transform: scale(1.5)
+}
